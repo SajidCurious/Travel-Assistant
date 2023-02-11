@@ -5,12 +5,12 @@ import PlaceDetails from "./components/PlaceDetails/PlaceDetails";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header />
       <List />
       <Map />
       <PlaceDetails />
-    </>
+    </div>
   );
 }
 
