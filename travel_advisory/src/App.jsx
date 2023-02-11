@@ -1,11 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="nit"></div>;
+  return (
+    <div className="nit">
+      <div className="div">kkkkkkk</div>
+    </div>
+  );
 }
 
 export default App;
