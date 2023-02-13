@@ -6,11 +6,10 @@ const Map = () => {
   return (
     <div className="w-[60vw]">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "w2FfyHHve6TzZogUG4zs	" }}
+        bootstrapURLKeys={{ key: "AIzaSyDlVUg_BWMXi2oMWzzebNCfwLpPSEEXdhA" }}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
-        margin={[50, 50, 50, 50]}
       />
     </div>
   );
