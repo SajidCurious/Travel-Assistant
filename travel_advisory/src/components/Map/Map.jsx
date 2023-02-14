@@ -9,7 +9,6 @@ const Map = () => {
         bootstrapURLKeys={{ key: "AIzaSyDlVUg_BWMXi2oMWzzebNCfwLpPSEEXdhA" }}
         defaultCenter={coordinates}
         center={coordinates}
-        defaultZoom={14}
       />
     </div>
   );
